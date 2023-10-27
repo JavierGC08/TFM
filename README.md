@@ -4,6 +4,6 @@ Este github es parte del trabajo de fin de máster **Javier Gutiérrez Corral**.
 
 ## ÍNDICE
 
-- [BASE DE DATOS](/https://github.com/JavierGC08/TFM/tree/main/Base_de_datos/)
+- [BASE DE DATOS](/Base_de_datos/)
 - TRANSCRIPTOMA
 - CLINAS
