@@ -2,7 +2,7 @@
 
 Este github es parte del trabajo de fin de máster **Javier Gutiérrez Corral**. Esta organizado según los objetivos a alcanzar:
 
-#ÍNDICE
+# ÍNDICE
 
 - BASE DE DATOS
 - TRANSCRIPTOMA
