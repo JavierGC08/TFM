@@ -6,6 +6,16 @@ El script se llama desde la terminal siguiendo la siguiente estructura:
 
  ` get_query_sequences.py correoelectronico listagenes --parámetros` 
 
+Entre los parámetros que se utilizarán se encuentran:
+
+` retmax `
+
+` nucleotide `
+
+` curated `
+
+` refine `
+
  
 ` ./Code/get_query_sequences.py javier.gutierrezcorral@estudiante.uam.es Example/Genes2 --retmax 50 --nucleotide --curated --refine 'AND biomol_mrna[PROP]' ` 
 
