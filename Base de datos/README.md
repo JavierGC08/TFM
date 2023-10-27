@@ -8,14 +8,15 @@ El script se llama desde la terminal siguiendo la siguiente estructura:
 
 Entre los parámetros que se utilizarán se encuentran:
 
-` retmax `
+` retmax ` Permite limitar el numero máximo de entradas que se recuperan por cada una de las búsquedas.
 
-` nucleotide `
+` nucleotide ` Acotar la búsqueda a nucleótidos.
 
-` curated `
+` curated ` 
 
-` refine `
+` refine ` Para hacer un filtrado por organismo a la hora de buscar los genes en concreto.
 
+Este es el código que se utilzó para la búsqueda:
  
 ` ./Code/get_query_sequences.py javier.gutierrezcorral@estudiante.uam.es Example/Genes2 --retmax 50 --nucleotide --curated --refine 'AND biomol_mrna[PROP]' ` 
 
