@@ -4,6 +4,6 @@ Este github es parte del trabajo de fin de máster **Javier Gutiérrez Corral**.
 
 ## ÍNDICE
 
-- [BASE DE DATOS](/Base de datos/)
-- [TRANSCRIPTOMA]
-- [CLINAS]
+- BASE DE DATOS 
+- TRANSCRIPTOMA
+- CLINAS
