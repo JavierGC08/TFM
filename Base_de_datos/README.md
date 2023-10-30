@@ -25,3 +25,5 @@ Adicionalmente, se programó un script ([ScriptBusqueda.ipynb](/Base_de_datos/Sc
 Sobre el transcriptoma generado, se realizó un BlastN de todas las secuencias obtenidas con GNFish, escribiendo un script en Unix ([merged.sh](/Base_de_datos/merged.sh/)) para juntar todas las secuencias antes generadas en un único archivo .fasta. Se utilizaron los parámetros básicos del programa.
 
 
+
+
