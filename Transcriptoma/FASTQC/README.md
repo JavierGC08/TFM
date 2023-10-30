@@ -1,1 +1,1 @@
-Todos los outputs de los análisis de calidad realizados.
+Todos los outputs de los análisis de calidad realizados. Los archivos con *_paired* son los resultados de los fastq tras haber realizado el *trimmming* y los archivos sin *_paired* son los resultados del fastq antes de haber realizado el *trimming*.
