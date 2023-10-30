@@ -51,3 +51,4 @@ cp ref.sam $resultdir
 rm -rf $workdir
 ``` 
 Para mandar el script a la cola: `sbatch -A hyzo_serv -p bio,biobis -N 1 -n 24 -o log.txt -s bowtiescript.sh`
+Siendo `A` el nombre del proyecto asociado, `p` nombre de las colas a los que se mandará el trabajo, `N` número de máquinas a utilizar, `n` número de procesadores, `o` registro del proceso y `s` el script que se correrá.
