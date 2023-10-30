@@ -26,10 +26,9 @@ Sobre el transcriptoma generado, se realizó un BlastN (Altschul et al., 1990) d
 
 ## BIBLIOGRAFÍA
 
-Lorente-Martínez, H., Agorreta, A., & Mauro, D. S. (2022). Genomic fishing and data processing for molecular evolution research. Methods and protocols, 5(2), 26. https://doi.org/10.3390/mps5020026
-
 Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic Local Alignment Search Tool. Journal of Molecular Biology, 215(3), 403-410. https://doi.org/10.1016/s0022-2836(05)80360-2
 
+Lorente-Martínez, H., Agorreta, A., & Mauro, D. S. (2022). Genomic fishing and data processing for molecular evolution research. Methods and protocols, 5(2), 26. https://doi.org/10.3390/mps5020026
 
 
 
