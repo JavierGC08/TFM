@@ -20,11 +20,11 @@ Este es el código que se utilzó para la búsqueda, utilizando el archivo [Gene
 
 Adicionalmente, se programó un script ([ScriptBusqueda.ipynb](/Base_de_datos/ScriptBusqueda.ipynb/)) para convertir los datos almacenados en archivo Excel, el cual guardaba la información sobre los genes potenciales, estructurado como : Nombre del gen – Siglas – Autores – Estudiado – Grupo – Comentario. De esta forma, se pasó automáticamente al archivo Genes2 con la lista de genes en el formato NombreDelGen ( AND GrupoTaxonómico[Organism]).
 
-### BLAST
+### Blast
 
 Sobre el transcriptoma generado, se realizó un BlastN (Altschul et al., 1990) de todas las secuencias obtenidas con GNFish, escribiendo un script en Unix ([merged.sh](/Base_de_datos/merged.sh/)) para juntar todas las secuencias antes generadas en un único archivo .fasta. Se utilizaron los parámetros básicos del programa.
 
-### BIBLIOGRAFÍA
+### Bibliografía
 
 Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic Local Alignment Search Tool. Journal of Molecular Biology, 215(3), 403-410. https://doi.org/10.1016/s0022-2836(05)80360-2
 
