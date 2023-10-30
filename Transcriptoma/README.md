@@ -21,11 +21,11 @@ Cabe destacar que en el FASTQC se detectaron ciertas secuencias sobrerrepresenta
 
 ### Ensamblado
 
-Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPADES (Prjibelski et al., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Se utilizó la versión para RNA-seq de Spades, RNA-spades 3.15.5 (Bushmanova et al., 2019) y no se modificaron lo parámetros de k-mer size de Spades, ya que el propio programa no recomienda modificarlo. 
+Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPAdes (Prjibelski et al., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Se utilizó la versión para RNA-seq de Spades, RNA-SPAdes 3.15.5 (Bushmanova et al., 2019) y no se modificaron lo parámetros de k-mer size de SPAdes, ya que el propio programa no recomienda modificarlo. 
 
 #### Calidad del ensmablado
 
-Se obtuvieron tres ensamblados distintos dependiendo del grado de filtrado, hard_filtered, soft_filtered y transcripts. Para comprobar la calidad de los tres ensamblados se utilizó la versión para RNA de Quast llamada rnaQUAST 2.2 `python rnaQUAST.py -c ~/TFM/Assembly_1/output/*.fasta -o ~/TFM/Assembly_1/rnaquast
+Se obtuvieron tres ensamblados distintos dependiendo del grado de filtrado, *hard_filtered*, *soft_filtered* y *transcripts*. Para comprobar la calidad de los tres ensamblados se utilizó la versión para RNA de Quast llamada rnaQUAST 2.2 `python rnaQUAST.py -c ~/TFM/Assembly_1/output/*.fasta -o ~/TFM/Assembly_1/rnaquast
 ` 
 
 Se escogió el ensamblado de transcripts para los siguientes pasos dado que los tres presentaban valores de calidad muy similares. Se analizó la calidad de este ensamblado de forma independiente utilizando BUSCO 5.4.7 (Manni et al., 2021) , que permite analizar cuáles de los core-genes que debería presentar nuestro ensamblado se encuentran en el mismo. Uno de los inputs que requiere el programa es una base datos con la que comparar, se escogió la base de datos de artrópodos, ya que es menor nivel taxonómico en el que se incluye Orthoptera de todos los presentes en las bases de datos de BUSCO. Se utilizó el parámetro `m` para especificar que se estaba tratando con datos de RNAseq: 
