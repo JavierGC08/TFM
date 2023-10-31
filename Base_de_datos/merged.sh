@@ -14,10 +14,9 @@ lista=$( find ~/TFM/BaseDatos/Data/Query_seqs -name "*.fas")
 #Comprobación de si se han introducido los 3 parametros
 #-----------------
 
-if [ ! $# -eq 2 ]
+if [ ! $# -eq 3 ]
 then
-      echo -e " No hay 2 parametros"
-
+      echo -e " No hay 3 parametros"
       exit
 fi
 
