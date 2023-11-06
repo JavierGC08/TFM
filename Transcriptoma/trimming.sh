@@ -3,7 +3,7 @@
 directorio=$1
 adaptadores=$2
 #------------------
-#Aqui comienza el script, comenzando mirando todos los elementos que aparecen en la lista de string que se han introducido y se añaden a un archivo temporal que se utilizará después
+#Aqui comienza el script, elimina lo necesario para poder iterar sobre todos los fastq a trimmear
 #------------------
 
 
