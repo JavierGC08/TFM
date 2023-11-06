@@ -36,7 +36,7 @@ fi
 
 
 #------------------
-#Aqui comienza el script, comenzando mirando todos los elementos que aparecen en la lista de string que se han introducido y se añaden a un archivo temporal que se utilizará después
+#Aqui comienza el script, comienza con todos los accesion numbers de una lista y les va añadiendo al final lo necesario para poder descargarlo
 #------------------
 
 list=$( cat $lista)
