@@ -7,7 +7,7 @@ Las secuencias en bruto (fastq) se obtuvieron del SRA de NCBI del trabajo realiz
 ` prefetch accesionnumber ` Con el accesion number determinado.
 
 ` fasterq-dump accesionnumber ` 
-
+Posteriormente cuando se descargaron los 10 archivos necesarios se automatizo mediante el script [download.sh](/Transcriptoma/download.sh/)
 Además, se comprobó que los fastq, al tratarse de una secuenciación pair end, ambas copias tuvieran el mismo número de secuencias. Para ello se utilizó : ` wc -l file | awk "{print $1/4 }" `
 
 ### Análisis de calidad
