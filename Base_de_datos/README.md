@@ -24,6 +24,10 @@ Adicionalmente, se programó un script ([ScriptBusqueda.ipynb](/Base_de_datos/Sc
 
 Sobre el transcriptoma generado, se realizó un BlastN (Altschul et al., 1990) de todas las secuencias obtenidas con GNFish, escribiendo un script en Unix ([merged.sh](/Base_de_datos/merged.sh/)) para juntar todas las secuencias antes generadas en un único archivo .fasta. Se utilizaron los parámetros básicos del programa.
 
+### Procesamiento
+
+El Blast anterior dió como resultado un output en el que están todos los *hits* y *no hits*. Por ello, para recuperar solo aquellos que han encontrado un resultado o varios en la base de datos, se utilizó el script [Processer.ipynb](/Base_de_datos/Processer.ipynb/).
+
 ### Bibliografía
 
 Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic Local Alignment Search Tool. Journal of Molecular Biology, 215(3), 403-410. https://doi.org/10.1016/s0022-2836(05)80360-2
