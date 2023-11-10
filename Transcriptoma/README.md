@@ -26,7 +26,7 @@ Cabe destacar que en el FASTQC se detectaron ciertas secuencias sobrerrepresenta
 
 Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPAdes (Prjibelski et al., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Se utilizó la versión para RNA-seq de Spades, RNA-SPAdes 3.15.5 (Bushmanova et al., 2019) y no se modificaron lo parámetros de k-mer size de SPAdes, ya que el propio programa no recomienda modificarlo. 
 
-#### Calidad del ensmablado
+#### Calidad del ensamblado
 
 Se obtuvieron tres ensamblados distintos dependiendo del grado de filtrado, *hard_filtered*, *soft_filtered* y *transcripts*. Para comprobar la calidad de los tres ensamblados se utilizó la versión para RNA de Quast llamada rnaQUAST 2.2 `python rnaQUAST.py -c ~/TFM/Assembly_1/output/*.fasta -o ~/TFM/Assembly_1/rnaquast
 ` 
