@@ -50,13 +50,15 @@ El resultado de CPC2 identifica cada uno de los transcritos como *coding* o *non
 
 ` grep -w "coding" output.txt > coding.txt `
 
-Ahora es necesario separar los transcritos de *hard_filtered_transcripts.fasta* dependiendo de si son codificantes o no, para ello se utilizo el script
+Ahora es necesario separar los transcritos de *hard_filtered_transcripts.fasta* dependiendo de si son codificantes o no, para ello se utilizaron dos scripts, uno para cada tipo de transcrito, pero la estructura de ambos es igual. Por ejemplo, para no codificantes se utilizó el script [NonCodingScript.ipynb](/Transcriptoma/NonCodingScript.ipynb/)
 
 ### Bibliografía
 
 Bushmanova, E., Antipov, D., Lapidus, A., & Prjibelski, A. D. (2019). RNASPADES: A de novo transcriptome assembler and its application to RNA-Seq data. GigaScience, 8(9). https://doi.org/10.1093/gigascience/giz100
 
 Bushmanova, E., Antipov, D., Lapidus, A., Suvorov, V. and Prjibelski, A.D., 2016. rnaQUAST: a quality assessment tool for de novo transcriptome assemblies. Bioinformatics, 32(14), pp.2210-2212.
+
+Kang, Y. J., Yang, D., Kong, L., Hou, M., Meng, Y., Wei, L., & Gao, G. (2017). CPC2: A fast and accurate coding potential calculator based on sequence intrinsic features. Nucleic Acids Research, 45(W1), W12-W16. 
 
 Langmead B, Salzberg S. Fast gapped-read alignment with Bowtie 2. Nature Methods. 2012, 9:357-359.
 
