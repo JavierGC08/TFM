@@ -38,6 +38,20 @@ Se escogió el ensamblado de transcripts para los siguientes pasos dado que los 
 
 Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado, para ello se  mando el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead et al., 2012) a los servidores del CCC.
 
+### Anotación
+
+Al haber comprobado la calidad del ensamblado, se realizó una clasificación del RNA, pudiendo ser *non-coding* (el transcrito no codifica para una proteína, es decir no se traduce, aunque se transcribe) o *coding* (el transcrito codifica para proteína, es decir se traduce). Para ello se utilizó CPC 2.0 (Kang et al., 2017) de forma offline, ya que las secuencias superaban los 50 MB, mediante la siguiente línea de código:
+
+` python ./bin/CPC2.py -i rutacompleta/transcripts.fasta -o output `
+
+El resultado de CPC2 identifica cada uno de los transcritos como *coding* o *non-coding*, por ello se pudo separar cada transcrito utilizando el comando `grep` de la siguiente forma:
+
+` grep -w "noncoding" output.txt > noncoding.txt `
+
+` grep -w "coding" output.txt > coding.txt `
+
+Ahora es necesario separar los transcritos de *hard_filtered_transcripts.fasta* dependiendo de si son codificantes o no, para ello se utilizo el script
+
 ### Bibliografía
 
 Bushmanova, E., Antipov, D., Lapidus, A., & Prjibelski, A. D. (2019). RNASPADES: A de novo transcriptome assembler and its application to RNA-Seq data. GigaScience, 8(9). https://doi.org/10.1093/gigascience/giz100
