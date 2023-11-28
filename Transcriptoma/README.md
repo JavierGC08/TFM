@@ -58,14 +58,16 @@ Ahora es necesario separar los transcritos de *hard_filtered_transcripts.fasta* 
 
 Se crearon dos bases de datos de artrópodos, una con todas las secuencias codificantes de proteínas no redundantes almacenadas en la base de datos del NCBI ([nr.gz](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)) (2023-07-28 6:02) y otra con todas las secuencias codificantes de proteínas de Swiss-Prot ([swissprot.gz](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)) (2023-07-27 19:36) para el posterior análisis funcional. Se utilizó DIAMOND (Buchfink et al., 2021) tanto para la creación de la base de datos, como para la anotación. Se utilizó la siguiente línea de código para la creación de la base de datos de *non-redundant*
 
-` /home/proyectos/hyzo/compartida/diamond makedb --in nr -d nrdb --taxonnodes nodes.dmp --taxonmap prot.accession2taxid.FULL.gz ` Incluyendo los parámetros de `--taxonnodes` y `--taxonmap` para poder filtrar después la base de datos por artrópodos. Los enlaces a los archivos son: ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/accession2taxid/prot.accession2taxid.FULL.gz y el archivo nodes.dmp dentro de (ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdmp.zip/)
+` /home/proyectos/hyzo/compartida/diamond makedb --in nr -d nrdb --taxonnodes nodes.dmp --taxonmap prot.accession2taxid.FULL.gz ` Incluyendo los parámetros de `--taxonnodes` y `--taxonmap` para poder filtrar después la base de datos por artrópodos. Los enlaces a los archivos son: <ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/accession2taxid/prot.accession2taxid.FULL.gz> y el archivo nodes.dmp dentro de (<ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdmp.zip/>)
 
 
 
 mandando al CCC el script [Diamond.sh](/Transcriptoma/Diamond.sh) 
 .
 
-De los resultados obtenidos para la anotación con todas las secuencias no redundantes, solo se dejaron las entradas de proteínas que estuvieran caracterizadas, se filtró mediante un script de Python que accedía a la información de cada proteína en la base de datos del NCBI. Se compararon las anotaciones frente a otra generada anteriormente por el grupo de investigación, para ello se escribió un script de Python que permitía ver para cada cluster que anotación tenía. Además, también proporcionaba una serie de valores como clusters sin anotar o la diferencia en el e-value para cada una de ellas.
+De los resultados obtenidos para la anotación con todas las secuencias no redundantes, solo se dejaron las entradas de proteínas que estuvieran caracterizadas, se filtró mediante un script de Python que accedía a la información de cada proteína en la base de datos del NCBI. 
+
+Se compararon las anotaciones frente a otra generada anteriormente por el grupo de investigación, para ello se escribió un script de Python(Comparation.ipynb que permitía ver para cada cluster que anotación tenía. Además, también proporcionaba una serie de valores como clusters sin anotar o la diferencia en el e-value para cada una de ellas.
 
 ### Bibliografía
 
