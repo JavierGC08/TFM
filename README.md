@@ -6,7 +6,7 @@ Este github es parte del trabajo de fin de máster **Javier Gutiérrez Corral**.
 
 - [BASE DE DATOS](/Base_de_datos/)
 - [TRANSCRIPTOMA](/Transcriptoma/)
-- CLINAS
+- [CLINAS](/Clinas/)
 
 ## SERVIDORES DEL CENTRO DE COMPUTACIÓN CIENTÍFICA 
 
