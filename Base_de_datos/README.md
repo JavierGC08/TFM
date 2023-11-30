@@ -16,7 +16,7 @@ Entre los parámetros que se utilizarán se encuentran:
 
 Este es el código que se utilzó para la búsqueda, utilizando el archivo [Genes2](/Base_de_datos/Genes2/) que contiene los genes de interés:
  
-` ./Code/get_query_sequences.py javier.gutierrezcorral@estudiante.uam.es Example/Genes2 --retmax 50 --nucleotide --curated --refine 'AND biomol_mrna[PROP]' ` 
+` ./Code/get_query_sequences.py javier.gutierrezcorral@estudiante.uam.es Example/Genes2 --retmax 800 --nucleotide --curated --refine 'AND biomol_mrna[PROP]' ` 
 
 Adicionalmente, se programó un script ([ScriptBusqueda.ipynb](/Base_de_datos/ScriptBusqueda.ipynb/)) para convertir los datos almacenados en archivo Excel, el cual guardaba la información sobre los genes potenciales, estructurado como : Nombre del gen – Siglas – Autores – Estudiado – Grupo – Comentario. De esta forma, se pasó automáticamente al archivo Genes2 con la lista de genes en el formato NombreDelGen ( AND GrupoTaxonómico[Organism]).
 
