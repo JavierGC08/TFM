@@ -20,7 +20,6 @@ cp /home/proyectos/hyzo/compartida/data/SRR12762980_1_paired.fastq $workdir
 cp /home/proyectos/hyzo/compartida/data/SRR12762980_2_paired.fastq $workdir
 
 #--Cargar los módulos y utilizar el comando necesario
-
 module load spades/3.15.4
 spades.py --rna -t 24 -1 SRR12762980_1_paired.fastq -2 SRR12762980_2_paired.fastq -o output
 module unload spades/3.15.4
