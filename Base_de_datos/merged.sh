@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#!/bin/bash
+#Javier Gutiérrez Corral
 
 # ----------------
 #Parametros de entrada y variables que se utilizan
