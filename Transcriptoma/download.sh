@@ -1,8 +1,11 @@
 #!/bin/bash
 
+#Javier Gutiérrez Corral
+
 # ----------------
 #Parametros de entrada y variables que se utilizan
 #-----------------
+
 lista=$1
 outdir=$2
 
