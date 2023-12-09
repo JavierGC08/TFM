@@ -1,11 +1,13 @@
 #!/bin/bash
 
+#Javier Gutiérrez Corral
+
 directorio=$1
 adaptadores=$2
+
 #------------------
 #Aqui comienza el script, elimina lo necesario para poder iterar sobre todos los fastq a trimmear
 #------------------
-
 
 ls $directorio | grep -E "*1.fastq$" > fastq.txt
 
