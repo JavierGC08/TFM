@@ -1,27 +1,32 @@
 #!/bin/bash 
 
+#Javier Gutiérrez Corral
+
 resultdir=/home/proyectos/hyzo/compartida/output
 workdir=/temporal/jcorral/output
 
-#--Check if workdir exits, if so delete it, and then create it 
+#--Comprueba si el workdir existe, si existe lo elimina sino lo crea
 if [ -d $workdir ]
 	then
 	rm -fr $workdir
 fi
 mkdir -p $workdir
-cd $workdir # entering workdir
 
-#--Copy required data to temporal folder
+#--Entrar en el directorio de trabajo
+cd $workdir 
+
+#--Copiar los datos necesarios
 cp /home/proyectos/hyzo/compartida/data/SRR12762980_1_paired.fastq $workdir
 cp /home/proyectos/hyzo/compartida/data/SRR12762980_2_paired.fastq $workdir
 
-#--Running 
+#--Cargar los módulos y utilizar el comando necesario
+
 module load spades/3.15.4
 spades.py --rna -t 24 -1 SRR12762980_1_paired.fastq -2 SRR12762980_2_paired.fastq -o output
 module unload spades/3.15.4
 
-#--Copy results 
+#--Copiar los resultados 
 cp -r output $resultdir
 
-#--Remove working directory to release disk space 
+#--Eliminar el directorio de trabajo 
 rm -rf $workdir
