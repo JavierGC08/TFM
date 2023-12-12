@@ -64,6 +64,8 @@ Se crearon dos bases de datos de artrópodos, una con todas las secuencias codif
 
 Se englobó todas lineas de comando anteriores en el script [Diamond.sh](/Transcriptoma/Diamond.sh) que se mandó al CCC
 .
+
+Se obtuvo [matchesNR.tsv](/Transcriptoma/matchesNR.tsv/) para la anotacion con nr y [matchesSPU.tsv](/Transcriptoma/matchesSPU.tsv/) para la anotación con Swiss-Prot
 De los resultados obtenidos para la anotación con todas las secuencias no redundantes, solo se dejaron las entradas de proteínas que estuvieran caracterizadas, se filtró mediante un script de Python ([api.ipynb](/Transcriptoma/api.ipynb/)) que accedía a la información de cada proteína en la base de datos del NCBI. 
 
 Se compararon las anotaciones frente a otra generada anteriormente por el grupo de investigación, para ello se escribió un script de Python ([Comparation.ipynb](/Transcriptoma/Comparation.ipynb/)) que permitía ver para cada cluster que anotación tenía. Además, también proporcionaba una serie de valores como clusters sin anotar o la diferencia en el e-value para cada una de ellas.
