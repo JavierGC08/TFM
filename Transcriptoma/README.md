@@ -38,8 +38,6 @@ Se escogió el ensamblado de transcripts para los siguientes pasos dado que los 
 
 Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado, para ello se  mando el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead et al., 2012) a los servidores del CCC.
 
-### Anotación
-
 #### Clasificación
 
 Al haber comprobado la calidad del ensamblado, se realizó una clasificación del RNA, pudiendo ser *non-coding* (el transcrito no codifica para una proteína, es decir no se traduce, aunque se transcribe) o *coding* (el transcrito codifica para proteína, es decir se traduce). Para ello se utilizó CPC 2.0 (Kang et al., 2017) de forma offline, ya que las secuencias superaban los 50 MB, mediante la siguiente línea de código:
@@ -53,6 +51,10 @@ El resultado de CPC2 identifica cada uno de los transcritos como *coding* o *non
 ` grep -w "coding" output.txt > coding.txt `
 
 Ahora es necesario separar los transcritos de *hard_filtered_transcripts.fasta* dependiendo de si son codificantes o no, para ello se utilizaron dos scripts, uno para cada tipo de transcrito, pero la estructura de ambos es igual. Por ejemplo, para no codificantes se utilizó el script [NonCodingScript.ipynb](/Transcriptoma/NonCodingScript.ipynb/)
+
+### Anotación
+
+El grupo de investigación ya había realizado el ensamblado y anotación de un transcriptoma, además de la selección y posterior secuenciación de las regiones en las que se ha visto variación. Dado que el análisis de clinas se había realizado sobre ese transcriptoma, se utilizó [catalog_normal_annotated.fasta]( para los siguientes pasos
 
 #### Base de datos
 
