@@ -11,7 +11,7 @@ Entre los parámetros que se utilizarán se encuentran:
 | :----------: | :-----------: |
 |` retmax `    | Permite limitar el numero máximo de entradas que se recuperan por cada una de las búsquedas.
 |` nucleotide `| Acotar la búsqueda a nucleótidos.
-|` curated `   |
+|` curated `   | Bases de datos curadas
 |` refine `    | Para hacer un filtrado por organismo a la hora de buscar los genes en concreto. |
 
 Este es el código que se utilzó para la búsqueda, utilizando el archivo [Genes2](/Base_de_datos/Genes2/) que contiene los genes de interés:
