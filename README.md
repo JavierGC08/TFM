@@ -10,7 +10,7 @@ Este github es parte del trabajo de fin de máster **Javier Gutiérrez Corral**.
 
 ## SERVIDORES DEL CENTRO DE COMPUTACIÓN CIENTÍFICA 
 
-Durante el desarrollo del TFM, se tuvo acceso a los servidores del Centro de Computación Científica ([CCC](https://www.ccc.uam.es)) de la UAM, que disponen de 2 máquinas (64 cores / 512 Gb de RAM), lo que permitió la realización de este trabajo.
+Durante el desarrollo del TFM se tuvo acceso a los servidores del Centro de Computación Científica ([CCC](https://www.ccc.uam.es)) de la UAM, que disponen de 2 máquinas (64 cores / 512 Gb de RAM), lo que permitió la realización de este trabajo.
 El acceso al mismo se realizaba mediante `ssh` junto a `jcorral@login1.ccc.uam.es`, cambiando el nombre de usuario por el correspondiente en cada caso.
 El cluster esta organizado en varios directorios, siendo los más importantes:
 - *temporal*: Donde se almacenarán temporalmente todos los datos necesarios para realizar cada trabajo, este se debe borrar al acabar.
