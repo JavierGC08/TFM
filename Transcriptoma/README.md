@@ -31,12 +31,12 @@ Dado que no existe un transcriptoma de referencia que se pueda utilizar durante 
 Se obtuvieron tres ensamblados distintos dependiendo del grado de filtrado, *hard_filtered*, *soft_filtered* y *transcripts*. Para comprobar la calidad de los tres ensamblados se utilizó la versión para RNA de Quast llamada rnaQUAST 2.2 `python rnaQUAST.py -c ~/TFM/Assembly_1/output/*.fasta -o ~/TFM/Assembly_1/rnaquast
 ` 
 
-Se escogió el ensamblado de transcripts para los siguientes pasos dado que los tres presentaban valores de calidad muy similares. Se analizó la calidad de este ensamblado de forma independiente utilizando BUSCO 5.4.7 (Manni et al., 2021) , que permite analizar cuáles de los core-genes que debería presentar nuestro ensamblado se encuentran en el mismo. Uno de los inputs que requiere el programa es una base datos con la que comparar, se escogió la base de datos de artrópodos, ya que es menor nivel taxonómico en el que se incluye Orthoptera de todos los presentes en las bases de datos de BUSCO. Se utilizó el parámetro `m` para especificar que se estaba tratando con datos de RNAseq: 
+Se escogió el ensamblado de hard_filtered_transcripts para los siguientes pasos dado que los tres presentaban valores de calidad muy similares, pero este destacaba. Se analizó la calidad de este ensamblado de forma independiente utilizando BUSCO 5.4.7 (Manni et al., 2021) , que permite analizar cuáles de los core-genes que debería presentar nuestro ensamblado se encuentran en el mismo. Uno de los inputs que requiere el programa es una base datos con la que comparar, se escogió la base de datos de artrópodos, ya que es menor nivel taxonómico en el que se incluye Orthoptera de todos los presentes en las bases de datos de BUSCO. Se utilizó el parámetro `m` para especificar que se estaba tratando con datos de RNAseq: 
 
 `busco -m transcriptome -i transcripts.fasta -o buscoutput -l artrhopoda `
 
 
-Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado, para ello se  mando el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead et al., 2012) a los servidores del CCC.
+Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado. Primero se indexo el transcriptoma con `bowtie2-build` y después se mando  el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead et al., 2012) a los servidores del CCC.
 
 #### Clasificación
 
