@@ -25,30 +25,34 @@ Este script es un ejemplo de los que se utilizaron en el trabajo, se siguió la 
 resultdir=/home/proyectos/hyzo/compartida/output/bowtie2
 workdir=/temporal/jcorral/output
 
-#--Check if workdir exits, if so delete it, and then create it 
+#--Comprueba si el workdir existe, si existe lo elimina sino lo crea
 if [ -d $workdir ]
 	then
 	rm -fr $workdir
 fi
 mkdir -p $workdir
-cd $workdir # entering workdir
 
-#--Copy required data to temporal folder
+#--Entrar en el directorio de trabajo
+cd $workdir 
+
+#--Copiar los datos necesarios
 cp /home/proyectos/hyzo/compartida/data/SRR12762980_1_paired.fastq $workdir
 cp /home/proyectos/hyzo/compartida/data/SRR12762980_2_paired.fastq  $workdir
 cp /home/proyectos/hyzo/compartida/data/index/*.bt2 $workdir
 cp /home/proyectos/hyzo/compartida/output/transcripts.fasta $workdir
 
-#--Running 
+#--Cargar los módulos y utilizar el comando necesario
 module load bowtie2/2.5.0
 bowtie2  -p 24 -x index -1 SRR12762980_1_paired.fastq -2 SRR12762980_2_paired.fastq -q -S ref.sam 
 module unload bowtie2/2.5.0
 
-#--Copy results 
+#--Copiar los resultados 
 cp -r $workdir $resultdir
 cp ref.sam $resultdir
-#--Remove working directory to release disk space 
+
+#--Eliminar el directorio de trabajo 
 rm -rf $workdir
+
 ``` 
 Para mandar el script a la cola: `sbatch -A hyzo_serv -p bio,biobis -N 1 -n 24 -o log.txt -s bowtiescript.sh`
 Siendo `A` el nombre del proyecto asociado, `p` nombre de las colas a los que se mandará el trabajo, `N` número de máquinas a utilizar, `n` número de procesadores, `o` registro del proceso y `s` el script que se correrá.
