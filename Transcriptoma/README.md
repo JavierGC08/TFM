@@ -2,7 +2,7 @@
 
 ### Obtención de datos
 
-Las secuencias en bruto (fastq) se obtuvieron del SRA de NCBI del trabajo realizadp por Nolen et al.(2020). Dado que las secuencias superaban los 5 gigabytes, se utilizó el software SRAtoolkit 3.0.5 (NCBI) para descargarlas. Se escribió la siguiente linea de código en la terminal:
+Las secuencias en bruto (fastq) se obtuvieron del SRA de NCBI del trabajo realizadp por Nolen y colaboradores (2020). Dado que las secuencias superaban los 5 gigabytes, se utilizó el software SRAtoolkit 3.0.5 (NCBI) para descargarlas. Se escribió la siguiente linea de código en la terminal:
 
 ` prefetch accesionnumber ` Con el accesion number determinado.
 
@@ -25,14 +25,14 @@ Se volvió a realizar un análisis de calidad con FASTQC para comprobar que el t
 
 ### Ensamblado
 
-Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPAdes (Prjibelski et al., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Se utilizó la versión para RNA-seq de Spades, RNA-SPAdes 3.15.5 (Bushmanova et al., 2019) y no se modificaron lo parámetros de k-mer size de SPAdes, ya que el propio programa no recomienda modificarlo. 
+Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPAdes (Prjibelski et al., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Se utilizó la versión para RNA-seq de Spades, RNA-SPAdes 3.15.5 (Bushmanova *et al*., 2019) y no se modificaron lo parámetros de k-mer size de SPAdes, ya que el propio programa no recomienda modificarlo. 
 
 #### Calidad del ensamblado
 
-Se obtuvieron tres ensamblados distintos dependiendo del grado de filtrado, *hard_filtered*, *soft_filtered* y *transcripts*. Para comprobar la calidad de los tres ensamblados se utilizó la versión para RNA de Quast llamada rnaQUAST 2.2 `python rnaQUAST.py -c ~/TFM/Assembly_1/output/*.fasta -o ~/TFM/Assembly_1/rnaquast
+Se obtuvieron tres ensamblados distintos dependiendo del grado de filtrado, *hard_filtered*, *soft_filtered* y *transcripts*. Para comprobar la calidad de los tres ensamblados se utilizó la versión para RNA de Quast llamada rnaQUAST 2.2(Bushmanova *et al*.,2016 `python rnaQUAST.py -c ~/TFM/Assembly_1/output/*.fasta -o ~/TFM/Assembly_1/rnaquast
 ` 
 
-Se escogió el ensamblado de hard_filtered_transcripts para los siguientes pasos dado que los tres presentaban valores de calidad muy similares, pero este destacaba. Se analizó la calidad de este ensamblado de forma independiente utilizando BUSCO 5.4.7 (Manni et al., 2021) , que permite analizar cuáles de los core-genes que debería presentar nuestro ensamblado se encuentran en el mismo. Uno de los inputs que requiere el programa es una base datos con la que comparar, se escogió la base de datos de artrópodos, ya que es menor nivel taxonómico en el que se incluye Orthoptera de todos los presentes en las bases de datos de BUSCO. Se utilizó el parámetro `m` para especificar que se estaba tratando con datos de RNAseq: 
+Se escogió el ensamblado de hard_filtered_transcripts para los siguientes pasos dado que los tres presentaban valores de calidad muy similares, pero este destacaba. Se analizó la calidad de este ensamblado de forma independiente utilizando BUSCO 5.4.7 (Manni *et al*., 2021) , que permite analizar cuáles de los core-genes que debería presentar nuestro ensamblado se encuentran en el mismo. Uno de los inputs que requiere el programa es una base datos con la que comparar, se escogió la base de datos de artrópodos, ya que es menor nivel taxonómico en el que se incluye Orthoptera de todos los presentes en las bases de datos de BUSCO. Se utilizó el parámetro `m` para especificar que se estaba tratando con datos de RNAseq: 
 
 `busco -m transcriptome -i transcripts.fasta -o buscoutput -l artrhopoda `
 
@@ -74,14 +74,13 @@ Se compararon las anotaciones frente a otra generada anteriormente por el grupo 
 
 ### Bibliografía
 
-Bushmanova, E., Antipov, D., Lapidus, A., & Prjibelski, A. D. (2019). RNASPADES: A de novo transcriptome assembler and its application to RNA-Seq data. GigaScience, 8(9). https://doi.org/10.1093/gigascience/giz100
+Bushmanova, E., Antipov, D., Lapidus, A., & Prjibelski, A. D. (2019). RNASPADES: A de novo transcriptome assembler and its application to RNA-Seq data. GigaScience, 8, 9. https://doi.org/10.1093/gigascience/giz100  
 
-Bushmanova, E., Antipov, D., Lapidus, A., Suvorov, V. and Prjibelski, A.D., 2016. rnaQUAST: a quality assessment tool for de novo transcriptome assemblies. Bioinformatics, 32(14), pp.2210-2212.
+Bushmanova, E., Antipov, D., Lapidus, A., Suvorov, V., & Prjibelski, A.D. (2016). rnaQUAST: a quality assessment tool for de novo transcriptome assemblies. Bioinformatics, 32, 14. 2210-2212. https://doi.org/10.1093/bioinformatics/btw218 
 
-Kang, Y. J., Yang, D., Kong, L., Hou, M., Meng, Y., Wei, L., & Gao, G. (2017). CPC2: A fast and accurate coding potential calculator based on sequence intrinsic features. Nucleic Acids Research, 45(W1), W12-W16. 
+Kang, Y. J., Yang, D., Kong, L., Hou, M., Meng, Y., Wei, L., & Gao, G. (2017). CPC2: A fast and accurate coding potential calculator based on sequence intrinsic features. Nucleic Acids Research, 45, 1, 12-16. https://doi.org/10.1093/nar/gkx428  
 
-Langmead B, Salzberg S. Fast gapped-read alignment with Bowtie 2. Nature Methods. 2012, 9:357-359.
+Langmead, B., Salzberg, S. (2012). Fast gapped-read alignment with Bowtie 2. Nature Methods. 9, 357-359. https://doi.org/10.1038/nmeth.1923 
+Nolen, Z. J., Yildirim, B., Irisarri, I., Liu, S., Crego, C. G., Amby, D. B., Mayer, F., Gilbert, M., & Pereira, R. J. (2020). Historical isolation facilitates species radiation by sexual selection: Insights from Chorthippus grasshoppers. Molecular Ecology, 29, 4985–5002. https://doi.org/10.1111/mec.15695    
 
-Nolen, Z. J., Yildirim, B., Irisarri, I., Liu, S., Groot Crego, C., Amby, D. B., Mayer, F., Gilbert, M., & Pereira, R. J. (2020). Historical isolation facilitates species radiation by sexual selection: Insights from Chorthippus grasshoppers. Molecular Ecology, 29, 4985–5002. https://doi.org/10.1111/mec.15695  
-
-Prjibelski, A. D., Antipov, D., Meleshko, D., Lapidus, A., & Korobeynikov, A. (2020). Using SPAdes de novo assembler. Current protocols in bioinformatics, 70(1). https://doi.org/10.1002/cpbi.102
+Prjibelski, A. D., Antipov, D., Meleshko, D., Lapidus, A., & Korobeynikov, A. (2020). Using SPAdes de novo assembler. Current protocols in bioinformatics, 70, 1. https://doi.org/10.1002/cpbi.102 
