@@ -6,7 +6,8 @@ Las secuencias en bruto (fastq) se obtuvieron del SRA de NCBI del trabajo realiz
 
 ` prefetch accesionnumber ` Con el accesion number determinado.
 
-` fasterq-dump accesionnumber ` 
+` fasterq-dump accesionnumber ` Con el mismo accesion number.
+
 
 Posteriormente cuando se descargaron los 10 archivos necesarios se automatizo mediante el script [download.sh](/Transcriptoma/download.sh/)
 
@@ -20,7 +21,7 @@ Para el análisis de calidad se utilizó FASTQC 0.12.0,` fastqc file.fastq -o /d
 `
 Posteriormente se automatizo con el script [trimming.sh](/Transcriptoma/trimming.sh/).
 
-Cabe destacar que en el FASTQC se detectaron ciertas secuencias sobrerrepresentadas que fueron identificadas como no hit, lo que implica que esta secuencia no esta reconocida por la lista de posibles contaminantes que tiene el programa. Por ello, se realizó una búsqueda con esta secuencia para comprobar si provenía de algún primer o adaptador no identificado, pero no era así. Por otro lado, como podía tratarse de una contaminación por Wolbachia, se realizó un blast con la secuencia, encontrando como hit el genoma mitocondrial de especies muy relacionadas con *Chorthippus*, por ello se decidió no eliminarlas. Se volvió a realizar un análisis de calidad con FASTQC para comprobar que el trimming había mejorado la calidad de las secuencias. 
+Se volvió a realizar un análisis de calidad con FASTQC para comprobar que el trimming había mejorado la calidad de las secuencias. Se utilizó el mismo código que en el FASTQC anterior. 
 
 ### Ensamblado
 
