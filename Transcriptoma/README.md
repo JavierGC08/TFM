@@ -25,7 +25,7 @@ Se volvió a realizar un análisis de calidad con FASTQC para comprobar que el t
 
 ### Ensamblado
 
-Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPAdes (Prjibelski et al., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Se utilizó la versión para RNA-seq de Spades, RNA-SPAdes 3.15.5 (Bushmanova *et al*., 2019) y no se modificaron lo parámetros de k-mer size de SPAdes, ya que el propio programa no recomienda modificarlo. 
+Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPAdes (Prjibelski *et al*., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Se utilizó la versión para RNA-seq de Spades, RNA-SPAdes 3.15.5 (Bushmanova *et al*., 2019) y no se modificaron lo parámetros de k-mer size de SPAdes, ya que el propio programa no recomienda modificarlo. 
 
 #### Calidad del ensamblado
 
@@ -37,11 +37,11 @@ Se escogió el ensamblado de hard_filtered_transcripts para los siguientes pasos
 `busco -m transcriptome -i transcripts.fasta -o buscoutput -l artrhopoda `
 
 
-Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado. Primero se indexo el transcriptoma con `bowtie2-build` y después se mandó  el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead et al., 2012) a los servidores del CCC.
+Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado. Primero se indexo el transcriptoma con `bowtie2-build` y después se mandó  el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead *et al*., 2012) a los servidores del CCC.
 
 #### Clasificación
 
-Al haber comprobado la calidad del ensamblado, se realizó una clasificación del RNA, pudiendo ser *non-coding* (el transcrito no codifica para una proteína, es decir no se traduce, aunque se transcribe) o *coding* (el transcrito codifica para proteína, es decir se traduce). Para ello se utilizó CPC 2.0 (Kang et al., 2017) de forma offline, ya que las secuencias superaban los 50 MB, mediante la siguiente línea de código:
+Al haber comprobado la calidad del ensamblado, se realizó una clasificación del RNA, pudiendo ser *non-coding* (el transcrito no codifica para una proteína, es decir no se traduce, aunque se transcribe) o *coding* (el transcrito codifica para proteína, es decir se traduce). Para ello se utilizó CPC 2.0 (Kang *et al*., 2017) de forma offline, ya que las secuencias superaban los 50 MB, mediante la siguiente línea de código:
 
 ` python ./bin/CPC2.py -i rutacompleta/transcripts.fasta -o output `
 
