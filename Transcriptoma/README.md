@@ -54,7 +54,7 @@ Ahora es necesario separar los transcritos de *hard_filtered_transcripts.fasta* 
 
 ### Anotación
 
-El grupo de investigación ya había realizado el ensamblado y anotación de un transcriptoma, además de la selección y posterior secuenciación de las regiones en las que se ha visto variación. Dado que el análisis de clinas se había realizado sobre ese transcriptoma, se utilizó [catalog_normal_annotated.fasta]( para los siguientes pasos
+El grupo de investigación ya había realizado el ensamblado y anotación de un transcriptoma, además de la selección y posterior secuenciación de las regiones en las que se ha visto variación. Dado que el análisis de clinas se había realizado sobre ese transcriptoma, se utilizó [catalog_normal_annotated.fasta](https://dauam-my.sharepoint.com/:u:/g/personal/javier_gutierrezcorral_estudiante_uam_es/EYnemDcVAPJAtACdfhiad5YB_zvmeBhcQCCNiDHHrhErdg?e=esEizo) para los siguientes pasos
 
 #### Base de datos
 
