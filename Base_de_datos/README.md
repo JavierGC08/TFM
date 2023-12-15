@@ -30,9 +30,9 @@ El Blast anterior dió como resultado un archivo en el que están todos los *hit
 
 ### Bibliografía
 
-Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic Local Alignment Search Tool. Journal of Molecular Biology, 215(3), 403-410. https://doi.org/10.1016/s0022-2836(05)80360-2
+Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic Local Alignment Search Tool. Journal of Molecular Biology, 215, 3, 403-410. https://doi.org/10.1016/s0022-2836(05)80360-2 
 
-Lorente-Martínez, H., Agorreta, A., & Mauro, D. S. (2022). Genomic fishing and data processing for molecular evolution research. Methods and protocols, 5(2), 26. https://doi.org/10.3390/mps5020026
+Lorente-Martínez, H., Agorreta, A., & Mauro, D. S. (2022). Genomic fishing and data processing for molecular evolution research. Methods and Protocols, 5, 2, 26. https://doi.org/10.3390/mps5020026 
 
 
 
