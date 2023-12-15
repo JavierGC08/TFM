@@ -2,20 +2,20 @@
 
 ### Obtención de datos
 
-Las secuencias en bruto (fastq) se obtuvieron del SRA de NCBI del trabajo realizo por Nolen et al.(2020). Dado que las secuencias superaban los 5 gigabytes, se utilizó el software SRAtoolkit 3.0.5 (NCBI) para descargarlas. Se escribió la siguiente linea de código en la terminal:
+Las secuencias en bruto (fastq) se obtuvieron del SRA de NCBI del trabajo realizadp por Nolen et al.(2020). Dado que las secuencias superaban los 5 gigabytes, se utilizó el software SRAtoolkit 3.0.5 (NCBI) para descargarlas. Se escribió la siguiente linea de código en la terminal:
 
 ` prefetch accesionnumber ` Con el accesion number determinado.
 
 ` fasterq-dump accesionnumber ` Con el mismo accesion number.
 
 
-Posteriormente cuando se descargaron los 10 archivos necesarios se automatizo mediante el script [download.sh](/Transcriptoma/download.sh/)
+Posteriormente, cuando se descargaron los 10 archivos necesarios, se automatizo el proceso mediante el script [download.sh](/Transcriptoma/download.sh/)
 
 Además, se comprobó que los fastq, al tratarse de una secuenciación pair end, ambas copias tuvieran el mismo número de secuencias. Para ello se utilizó : ` wc -l file | awk "{print $1/4 }" `
 
 ### Análisis de calidad
 
-Para el análisis de calidad se utilizó FASTQC 0.12.0,` fastqc file.fastq -o /directorio `. Puesto que el resultado general era satisfactorio ([FASTQC](/Transcriptoma/FASTQC/)), en el siguiente paso de trimming usando TRIMMOMATIC 0.32, se utilizarón los parametros por defecto ` LEADING:20 TRAILING:20 SLIDINGWINDOW:5:20 MINLEN:80`  con la versión ` PE `, ya que se trata de archivos *paired end* y  con el archivo adaptadores.fas(cuando lo tenga ponerlo) para eliminar las secuencias sobrerrepresentadas:
+Para el análisis de calidad se utilizó FASTQC 0.12.0,` fastqc file.fastq -o /directorio `. Puesto que el resultado general era satisfactorio ([FASTQC](/Transcriptoma/FASTQC/)), en el siguiente paso de trimming usando TRIMMOMATIC 0.32, se utilizarón los parametros por defecto ` LEADING:20 TRAILING:20 SLIDINGWINDOW:5:20 MINLEN:80`  con la versión ` PE `, ya que se trata de archivos *paired end* y  con el archivo adaptadores.fas(vacio al no tener niguno) para eliminar las secuencias sobrerrepresentadas:
 
 `trimmomatic PE -phred33 forward.fastq reverse.fastq forwardpaired.fastq forwardunpaired.fastq reversepaired.fastq reverseunpaired.fastq ILLUMINACLIP:ficheroadaptadores.fas LEADING:20 TRAILING:20 SLIDINGWINDOW:5:20 MINLEN:80
 `
@@ -37,7 +37,7 @@ Se escogió el ensamblado de hard_filtered_transcripts para los siguientes pasos
 `busco -m transcriptome -i transcripts.fasta -o buscoutput -l artrhopoda `
 
 
-Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado. Primero se indexo el transcriptoma con `bowtie2-build` y después se mando  el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead et al., 2012) a los servidores del CCC.
+Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado. Primero se indexo el transcriptoma con `bowtie2-build` y después se mandó  el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead et al., 2012) a los servidores del CCC.
 
 #### Clasificación
 
@@ -55,7 +55,7 @@ Ahora es necesario separar los transcritos de *hard_filtered_transcripts.fasta* 
 
 ### Anotación
 
-El grupo de investigación ya había realizado el ensamblado y anotación de un transcriptoma, además de la selección y posterior secuenciación de las regiones en las que se ha visto variación. Dado que el análisis de clinas se había realizado sobre ese transcriptoma, se utilizó [catalog_normal_annotated.fasta](https://dauam-my.sharepoint.com/:u:/g/personal/javier_gutierrezcorral_estudiante_uam_es/EYnemDcVAPJAtACdfhiad5YB_zvmeBhcQCCNiDHHrhErdg?e=esEizo) para los siguientes pasos
+El grupo de investigación ya había realizado el ensamblado y anotación de un transcriptoma, además de la selección y posterior secuenciación de las regiones en las que se ha visto variación. Dado que el análisis de clinas se había realizado sobre ese transcriptoma, se utilizó [catalog_normal_annotated.fasta](https://dauam-my.sharepoint.com/:u:/g/personal/javier_gutierrezcorral_estudiante_uam_es/EYnemDcVAPJAtACdfhiad5YB_zvmeBhcQCCNiDHHrhErdg?e=esEizo) para los siguientes pasos.
 
 #### Base de datos
 
