@@ -10,4 +10,10 @@ Los SNPs se estudiaron en los dos transectos, en cada uno de ellos se analizaba 
 
 ### Análisis funcional
 
-Para los grupos que presentasen un numero pequeño de entradas que permitiese el análisis de cada cluster, se estudió individualmente la información presente en la base de datos de proteínas del NCBI. Esto se realizó para los grupos CTTPTT, PTT y CTFPTF. Para el resto de los grupos se realizaron dos análisis de enriquecimiento funcional utilizando la versión web de DAVID (citar), uno usando de background todos los clusters anotados y otro usando como background todas las clinas anotadas, significativas o no. Se obtuvo una lista de aquellos clusters del grupo True que tuviesen asociada la función biológica de determinación del sexo o espermatogénesis, además de aquellos que estuviesen presentes en el cromosoma X de la especie en la que se estudió dicha proteína.
+Para todos los grupos menos CTTPTT, PTT y CTFPTF se realizaron dos análisis de enriquecimiento funcional utilizando la versión web de DAVID (Huang et al.,2008; Sherman et al.,2022), uno usando de background todos los clusters anotados y otro usando como background todas las clinas anotadas, significativas o no. Para ello se utilizó el script anterior [GO-SPU](/Clinas/GO-SPU.ipynb/), para obtener la lista de genes a introducir en DAVID, así como el background.
+
+### Bibliografía
+
+Huang, D. W., Sherman, B. T., & Lempicki, R. A. (2008). Systematic and integrative analysis of large gene lists using DAVID Bioinformatics resources. Nature Protocols, 4, 1, 44-57. https://doi.org/10.1038/nprot.2008.211 
+
+Sherman, B. T., Ming, H., Qiu, J., Jiao, X., Baseler, M., Lane, H. C., Imamichi, T., & Chang, W. (2022). DAVID: A web server for functional enrichment analysis and functional annotation of gene lists. Nucleic Acids Research, 50, 1, 216-221. https://doi.org/10.1093/nar/gkac194 
