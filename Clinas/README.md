@@ -2,7 +2,7 @@
 
 ### Conversión de los datos
 
-Los resultados del análisis de clinas estaban organizados por el SNP, cada uno de ellos ([Snps_names](/Clinas/snp_names/)) procede una región concreta que se amplificó para su análisis la cual forma parte de un *cluster* ([grasshopperRef.positions](/Clinas/grasshopperRef.positions/)), que son los que fueron anotados en el apartado de [TRANSCRIPTOMA](/Transcriptoma/), por ello se utilizó el script [References.ipynb](/Clinas/References.ipynb/) para obtener la relación.
+Los resultados del análisis de clinas estaban organizados por el SNP. Cada uno de ellos ([Snps_names](/Clinas/snp_names/)) procede una región concreta que se amplificó para su análisis la cual forma parte de un *cluster* ([grasshopperRef.positions](/Clinas/grasshopperRef.positions/)), que son los que fueron anotados en el apartado de [TRANSCRIPTOMA](/Transcriptoma/). Se utilizó el script [References.ipynb](/Clinas/References.ipynb/) para obtener la relación.
 
 ### Anotación de las clinas
 
