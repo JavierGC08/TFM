@@ -1,0 +1,600 @@
+>XM_050099141.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_055533887.1 PREDICTED: Condylostylus longicornis putative 
+
+>XM_055533888.1 PREDICTED: Condylostylus longicornis putative 
+
+>XM_049987756.1 PREDICTED: Schistocerca gregaria vitellogenin 
+
+>XM_049971452.1 PREDICTED: Schistocerca gregaria vitellogenin 
+
+>XM_047141363.1 PREDICTED: Schistocerca americana vitellogenin 
+
+>XM_050106231.1 PREDICTED: Schistocerca serialis cubense vitellogenin 
+
+>XM_049930442.1 PREDICTED: Schistocerca cancellata vitellogenin 
+
+>XM_047259148.1 PREDICTED: Schistocerca piceifrons vitellogenin 
+
+>XM_049971455.1 PREDICTED: Schistocerca gregaria vitellogenin 
+
+>XM_047127356.1 PREDICTED: Schistocerca americana putative vitellogenin 
+
+>XM_049971456.1 PREDICTED: Schistocerca gregaria vitellogenin 
+
+>XM_049913401.1 PREDICTED: Schistocerca cancellata vitellogenin 
+
+>XM_049971457.1 PREDICTED: Schistocerca gregaria vitellogenin 
+
+>XM_049940159.1 PREDICTED: Schistocerca nitens vitellogenin receptor-like 
+
+>XM_050088541.1 PREDICTED: Schistocerca serialis cubense vitellogenin 
+
+>XM_049913402.1 PREDICTED: Schistocerca cancellata putative vitellogenin 
+
+>NM_001043981.1 Bombyx mori transcription factor BCFI (Gata-beta), 
+
+>XM_058933486.1 PREDICTED: Phymastichus coffea zinc finger protein 
+
+>LC716474.1 Spodoptera frugiperda cell line Sf9 SfMasc mRNA for 
+
+>XM_035591419.2 PREDICTED: Spodoptera frugiperda RNA-binding protein 
+
+>NM_001043991.2 Bombyx mori POU domain protein (SGF3), mRNA
+
+>XM_050098495.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_050096943.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_047249778.1 PREDICTED: Schistocerca piceifrons male-specific 
+
+>XM_047131604.1 PREDICTED: Schistocerca americana male-specific 
+
+>XM_049946427.1 PREDICTED: Schistocerca nitens male-specific lethal 
+
+>XM_049918428.1 PREDICTED: Schistocerca cancellata male-specific 
+
+>XM_050093701.1 PREDICTED: Schistocerca serialis cubense male-specific 
+
+>XM_049994944.1 PREDICTED: Schistocerca gregaria male-specific 
+
+>XM_049946428.1 PREDICTED: Schistocerca nitens male-specific lethal 
+
+>XM_047249779.1 PREDICTED: Schistocerca piceifrons male-specific 
+
+>XM_049994945.1 PREDICTED: Schistocerca gregaria male-specific 
+
+>XM_047131605.1 PREDICTED: Schistocerca americana male-specific 
+
+>XM_049918429.1 PREDICTED: Schistocerca cancellata male-specific 
+
+>XM_050093702.1 PREDICTED: Schistocerca serialis cubense male-specific 
+
+>XM_050002402.1 PREDICTED: Schistocerca gregaria doublesex and 
+
+>XM_050002402.1 PREDICTED: Schistocerca gregaria doublesex and 
+
+>XM_050002402.1 PREDICTED: Schistocerca gregaria doublesex and 
+
+>XM_050002401.1 PREDICTED: Schistocerca gregaria doublesex and 
+
+>XM_050002401.1 PREDICTED: Schistocerca gregaria doublesex and 
+
+>XM_050002401.1 PREDICTED: Schistocerca gregaria doublesex and 
+
+>XM_049940008.1 PREDICTED: Schistocerca nitens protein doublesex-like 
+
+>XM_047247953.1 PREDICTED: Schistocerca piceifrons doublesex- 
+
+>XM_049924570.1 PREDICTED: Schistocerca cancellata protein doublesex-like 
+
+>XM_050103477.1 PREDICTED: Schistocerca serialis cubense protein 
+
+>XM_047177562.1 PREDICTED: Helicoverpa zea protein doublesex (LOC124640005), 
+
+>XM_047177563.1 PREDICTED: Helicoverpa zea protein doublesex (LOC124640005), 
+
+>XM_047177564.1 PREDICTED: Helicoverpa zea protein doublesex (LOC124640005), 
+
+>XM_047177565.1 PREDICTED: Helicoverpa zea protein doublesex (LOC124640005), 
+
+>XM_049848451.1 PREDICTED: Helicoverpa armigera protein doublesex 
+
+>XM_021336378.2 PREDICTED: Helicoverpa armigera protein doublesex 
+
+>XM_049848452.1 PREDICTED: Helicoverpa armigera protein doublesex 
+
+>XM_021336379.2 PREDICTED: Helicoverpa armigera protein doublesex 
+
+>XM_021336380.2 PREDICTED: Helicoverpa armigera protein doublesex 
+
+>XM_049848453.1 PREDICTED: Helicoverpa armigera protein doublesex 
+
+>XM_049848454.1 PREDICTED: Helicoverpa armigera protein doublesex 
+
+>XM_045920866.1 PREDICTED: Maniola jurtina protein doublesex (LOC123875177), 
+
+>XM_045920867.1 PREDICTED: Maniola jurtina protein doublesex (LOC123875177), 
+
+>XM_045920868.1 PREDICTED: Maniola jurtina protein doublesex (LOC123875177), 
+
+>XM_045920869.1 PREDICTED: Maniola jurtina protein doublesex (LOC123875177), 
+
+>XM_048630440.1 PREDICTED: Plutella xylostella protein doublesex 
+
+>XM_038107517.2 PREDICTED: Plutella xylostella protein doublesex 
+
+>XM_038107518.2 PREDICTED: Plutella xylostella protein doublesex 
+
+>XM_038107519.2 PREDICTED: Plutella xylostella protein doublesex 
+
+>XM_038107521.2 PREDICTED: Plutella xylostella protein doublesex 
+
+>XM_052267775.1 PREDICTED: Frankliniella occidentalis protein 
+
+>XM_052267776.1 PREDICTED: Frankliniella occidentalis protein 
+
+>XM_052267777.1 PREDICTED: Frankliniella occidentalis protein 
+
+>XM_014910547.3 PREDICTED: Drosophila ananassae protein doublesex 
+
+>XM_032449744.2 PREDICTED: Drosophila ananassae protein doublesex 
+
+>XM_001954765.4 PREDICTED: Drosophila ananassae protein doublesex 
+
+>XM_014910546.3 PREDICTED: Drosophila ananassae protein doublesex 
+
+>LC054300.1 Trilocha varians Tvdsx mRNA for doublesex isoform 
+
+>LC054301.1 Trilocha varians Tvdsx mRNA for doublesex isoform 
+
+>XM_013292375.1 PREDICTED: Papilio polytes doublesex and mab-3 
+
+>XM_013292375.1 PREDICTED: Papilio polytes doublesex and mab-3 
+
+>XM_048138123.1 PREDICTED: Leguminivora glycinivorella protein 
+
+>XM_048138124.1 PREDICTED: Leguminivora glycinivorella protein 
+
+>XM_054403017.1 PREDICTED: Macrosteles quadrilineatus protein 
+
+>XM_054403017.1 PREDICTED: Macrosteles quadrilineatus protein 
+
+>XM_054403017.1 PREDICTED: Macrosteles quadrilineatus protein 
+
+>XM_054403018.1 PREDICTED: Macrosteles quadrilineatus protein 
+
+>XM_049990442.1 PREDICTED: Schistocerca gregaria vitellogenin-1-like 
+
+>MW962610.1 Schistocerca gregaria clone SCH_0227 Vitellogenin 
+
+>XM_050098947.1 PREDICTED: Schistocerca serialis cubense vitellogenin-2-like 
+
+>XM_049926673.1 PREDICTED: Schistocerca cancellata vitellogenin-2-like 
+
+>XM_049950989.1 PREDICTED: Schistocerca nitens vitellogenin-2-like 
+
+>XM_050103694.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103691.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103698.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103689.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103688.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103690.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103701.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103702.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103692.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103693.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103695.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103696.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103703.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103697.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_050103700.1 PREDICTED: Schistocerca serialis cubense RNA binding 
+
+>XM_057464668.1 PREDICTED: Microplitis mediator RNA binding protein 
+
+>XM_057464666.1 PREDICTED: Microplitis mediator RNA binding protein 
+
+>XM_050610364.1 PREDICTED: Cataglyphis hispanica RNA binding protein 
+
+>XM_050610358.1 PREDICTED: Cataglyphis hispanica RNA binding protein 
+
+>XM_050610359.1 PREDICTED: Cataglyphis hispanica RNA binding protein 
+
+>XM_050610362.1 PREDICTED: Cataglyphis hispanica RNA binding protein 
+
+>XM_050610363.1 PREDICTED: Cataglyphis hispanica RNA binding protein 
+
+>XM_031912432.2 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_031912433.2 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_031912434.2 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_031912435.2 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_031912436.2 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_031912437.2 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_031912438.2 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_026902333.3 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_026902335.3 PREDICTED: Galleria mellonella RNA binding protein 
+
+>XM_053767224.1 PREDICTED: Plodia interpunctella RNA binding protein 
+
+>XM_053767242.1 PREDICTED: Plodia interpunctella RNA binding protein 
+
+>XM_050610360.1 PREDICTED: Cataglyphis hispanica RNA binding protein 
+
+>XM_050610361.1 PREDICTED: Cataglyphis hispanica RNA binding protein 
+
+>XM_053767216.1 PREDICTED: Plodia interpunctella RNA binding protein 
+
+>XM_053767233.1 PREDICTED: Plodia interpunctella RNA binding protein 
+
+>XM_053767251.1 PREDICTED: Plodia interpunctella RNA binding protein 
+
+>XM_053767260.1 PREDICTED: Plodia interpunctella RNA binding protein 
+
+>XM_057464662.1 PREDICTED: Microplitis mediator RNA binding protein 
+
+>XM_057464663.1 PREDICTED: Microplitis mediator RNA binding protein 
+
+>XM_050703247.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050650828.1 PREDICTED: Diabrotica virgifera virgifera RNA 
+
+>XM_050703245.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703246.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703248.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703249.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703250.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703251.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703252.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703253.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703255.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703256.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703257.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703258.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703259.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_050703260.1 PREDICTED: Spodoptera frugiperda RNA binding protein 
+
+>XM_057464664.1 PREDICTED: Microplitis mediator RNA binding protein 
+
+>XM_057464665.1 PREDICTED: Microplitis mediator RNA binding protein 
+
+>XM_057464667.1 PREDICTED: Microplitis mediator RNA binding protein 
+
+>XM_057464670.1 PREDICTED: Microplitis mediator RNA binding protein 
+
+>XM_052881819.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881820.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881821.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881822.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881823.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881824.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881825.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881826.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881827.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881828.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881831.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_052881832.1 PREDICTED: Bicyclus anynana RNA binding protein 
+
+>XM_054434541.1 PREDICTED: Macrosteles quadrilineatus RNA binding 
+
+>XM_054434546.1 PREDICTED: Macrosteles quadrilineatus RNA binding 
+
+>XM_054434552.1 PREDICTED: Macrosteles quadrilineatus RNA binding 
+
+>XM_054434557.1 PREDICTED: Macrosteles quadrilineatus RNA binding 
+
+>XM_054434560.1 PREDICTED: Macrosteles quadrilineatus RNA binding 
+
+>XM_054434565.1 PREDICTED: Macrosteles quadrilineatus RNA binding 
+
+>XM_054434570.1 PREDICTED: Macrosteles quadrilineatus RNA binding 
+
+>XM_054434578.1 PREDICTED: Macrosteles quadrilineatus RNA binding 
+
+>XM_052709473.1 PREDICTED: Culex pipiens pallens RNA-binding protein 
+
+>XM_053769558.1 PREDICTED: Plodia interpunctella RNA-binding protein 
+
+>XM_053769560.1 PREDICTED: Plodia interpunctella RNA-binding protein 
+
+>XM_053769563.1 PREDICTED: Plodia interpunctella RNA-binding protein 
+
+>XM_053769559.1 PREDICTED: Plodia interpunctella RNA-binding protein 
+
+>XM_053769561.1 PREDICTED: Plodia interpunctella RNA-binding protein 
+
+>XM_055754793.1 PREDICTED: Uranotaenia lowii RNA-binding protein 
+
+>XM_053769562.1 PREDICTED: Plodia interpunctella RNA-binding protein 
+
+>XM_055745576.1 PREDICTED: Uranotaenia lowii RNA-binding protein 
+
+>XM_052709474.1 PREDICTED: Culex pipiens pallens RNA-binding protein 
+
+>XM_055754794.1 PREDICTED: Uranotaenia lowii RNA-binding protein 
+
+>XM_055745575.1 PREDICTED: Uranotaenia lowii RNA-binding protein 
+
+>XM_055745578.1 PREDICTED: Uranotaenia lowii RNA-binding protein 
+
+>XM_050105178.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105138.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105148.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105153.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105161.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105169.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105188.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105195.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105201.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105211.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105219.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_050105226.1 PREDICTED: Schistocerca serialis cubense sex determination 
+
+>XM_058939190.1 PREDICTED: Phymastichus coffea sex determination 
+
+>NM_001043981.1 Bombyx mori transcription factor BCFI (Gata-beta), 
+
+>XM_060662452.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060662804.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060662805.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060662806.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_050097227.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_050097226.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_050097224.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_050097225.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_054876509.1 PREDICTED: Anastrepha obliqua probable multidrug 
+
+>XM_049991514.1 PREDICTED: Schistocerca gregaria vitellogenin-like 
+
+>XM_049991515.1 PREDICTED: Schistocerca gregaria vitellogenin-like 
+
+>XM_050098725.1 PREDICTED: Schistocerca serialis cubense vitellogenin-like 
+
+>XM_049951103.1 PREDICTED: Schistocerca nitens vitellogenin-like 
+
+>XM_049926828.1 PREDICTED: Schistocerca cancellata vitellogenin-like 
+
+>XM_060661698.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060661699.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060661700.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_058933541.1 PREDICTED: Phymastichus coffea putative vitellogenin 
+
+>XM_058933543.1 PREDICTED: Phymastichus coffea putative vitellogenin 
+
+>XM_058933544.1 PREDICTED: Phymastichus coffea putative vitellogenin 
+
+>XM_029186860.2 PREDICTED: Osmia bicornis bicornis vitellogenin 
+
+>XM_050098603.1 PREDICTED: Schistocerca serialis cubense transcription 
+
+>XM_055685142.1 PREDICTED: Wyeomyia smithii RNA-binding protein 
+
+>XM_050205043.1 PREDICTED: Aphis gossypii RNA-binding protein 
+
+>XM_050205044.1 PREDICTED: Aphis gossypii RNA-binding protein 
+
+>XM_050099392.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_049933649.1 PREDICTED: Schistocerca nitens low-density lipoprotein 
+
+>XM_047136645.1 PREDICTED: Schistocerca americana transformer-2 
+
+>XM_049921357.1 PREDICTED: Schistocerca cancellata transformer-2 
+
+>XM_050003131.1 PREDICTED: Schistocerca gregaria transformer-2 
+
+>XM_049921357.1 PREDICTED: Schistocerca cancellata transformer-2 
+
+>XM_050003131.1 PREDICTED: Schistocerca gregaria transformer-2 
+
+>XM_049953720.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049953720.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_050100885.1 PREDICTED: Schistocerca serialis cubense transformer-2 
+
+>XM_050100885.1 PREDICTED: Schistocerca serialis cubense transformer-2 
+
+>XM_047254397.1 PREDICTED: Schistocerca piceifrons transformer-2 
+
+>XM_049942323.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049942323.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_047254396.1 PREDICTED: Schistocerca piceifrons transformer-2 
+
+>XM_047136644.1 PREDICTED: Schistocerca americana transformer-2 
+
+>XM_049921356.1 PREDICTED: Schistocerca cancellata transformer-2 
+
+>XM_049921356.1 PREDICTED: Schistocerca cancellata transformer-2 
+
+>XM_049953719.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049953719.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049942322.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_050100883.1 PREDICTED: Schistocerca serialis cubense transformer-2 
+
+>XM_049942322.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_050100883.1 PREDICTED: Schistocerca serialis cubense transformer-2 
+
+>XM_050003130.1 PREDICTED: Schistocerca gregaria transformer-2 
+
+>XM_050003130.1 PREDICTED: Schistocerca gregaria transformer-2 
+
+>XM_049921358.1 PREDICTED: Schistocerca cancellata transformer-2 
+
+>XM_049921358.1 PREDICTED: Schistocerca cancellata transformer-2 
+
+>XM_047254398.1 PREDICTED: Schistocerca piceifrons transformer-2 
+
+>XM_047254399.1 PREDICTED: Schistocerca piceifrons transformer-2 
+
+>XM_049953721.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049953722.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049921359.1 PREDICTED: Schistocerca cancellata transformer-2 
+
+>XM_050100886.1 PREDICTED: Schistocerca serialis cubense transformer-2 
+
+>XM_050100887.1 PREDICTED: Schistocerca serialis cubense transformer-2 
+
+>XM_049953721.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049953722.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049921359.1 PREDICTED: Schistocerca cancellata transformer-2 
+
+>XM_050100886.1 PREDICTED: Schistocerca serialis cubense transformer-2 
+
+>XM_050100887.1 PREDICTED: Schistocerca serialis cubense transformer-2 
+
+>XM_047136646.1 PREDICTED: Schistocerca americana transformer-2 
+
+>XM_047136647.1 PREDICTED: Schistocerca americana transformer-2 
+
+>XM_049942324.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049942325.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049942324.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_049942325.1 PREDICTED: Schistocerca nitens transformer-2 protein 
+
+>XM_050003132.1 PREDICTED: Schistocerca gregaria transformer-2 
+
+>XM_050003132.1 PREDICTED: Schistocerca gregaria transformer-2 
+
+>XM_050003133.1 PREDICTED: Schistocerca gregaria transformer-2 
+
+>XM_050003133.1 PREDICTED: Schistocerca gregaria transformer-2 
+
+>XM_060663026.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060663027.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060663028.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060663029.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060663030.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060663031.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060663032.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_060663033.1 PREDICTED: Cylas formicarius probable multidrug 
+
+>XM_055680713.1 PREDICTED: Wyeomyia smithii probable multidrug 
+
+>XM_055680722.1 PREDICTED: Wyeomyia smithii probable multidrug 
+
+>XM_050093700.1 PREDICTED: Schistocerca serialis cubense male-specific 
+
+>XM_050093699.1 PREDICTED: Schistocerca serialis cubense male-specific 
+
+>XM_049918430.1 PREDICTED: Schistocerca cancellata male-specific 
+
+>XM_047134176.1 PREDICTED: Schistocerca americana male-specific 
+
+>XM_047251531.1 PREDICTED: Schistocerca piceifrons male-specific 
+
+>XM_049994946.1 PREDICTED: Schistocerca gregaria male-specific 
+
+>XM_049946429.1 PREDICTED: Schistocerca nitens male-specific lethal 
+
+>XM_056787269.1 PREDICTED: Diorhabda sublineata probable multidrug 
+
+>XM_056787270.1 PREDICTED: Diorhabda sublineata probable multidrug 
+
+>XM_056787271.1 PREDICTED: Diorhabda sublineata probable multidrug 
+
+>XM_056787272.1 PREDICTED: Diorhabda sublineata probable multidrug 
+
+>OQ190937.1 Cydia pomonella 6-phosphogluconate dehydrogenase (6Pgd) 
+
+>XM_050099141.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_050099411.1 PREDICTED: Schistocerca serialis cubense RNA-binding 
+
+>XM_049990443.1 PREDICTED: Schistocerca gregaria vitellogenin-1-like 
+
+>XM_049990444.1 PREDICTED: Schistocerca gregaria vitellogenin-1-like 
+
+>MW962596.1 Schistocerca gregaria clone SCH_0208 Vitellogenin 
+
+>XM_050098949.1 PREDICTED: Schistocerca serialis cubense vitellogenin-1-like 
+
+>XM_049926672.1 PREDICTED: Schistocerca cancellata vitellogenin-1-like 
+
