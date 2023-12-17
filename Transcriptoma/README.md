@@ -59,11 +59,11 @@ El grupo de investigación ya había realizado el ensamblado y anotación de un 
 
 #### Base de datos
 
-Se crearon dos bases de datos de artrópodos, una con todas las secuencias codificantes de proteínas no redundantes almacenadas en la base de datos del NCBI ([nr.gz](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)) (2023-07-28 6:02) y otra con todas las secuencias codificantes de proteínas de Swiss-Prot ([swissprot.gz](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)) (2023-07-27 19:36) para el posterior análisis funcional. Se utilizó DIAMOND (Buchfink et al., 2021) tanto para la creación de la base de datos, como para la anotación. Se utilizó la siguiente línea de código para la creación de la base de datos de *non-redundant*
+Se crearon dos bases de datos de artrópodos, una con todas las secuencias codificantes de proteínas no redundantes almacenadas en la base de datos del NCBI ([nr.gz](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)) (2023-07-28 6:02) y otra con todas las secuencias codificantes de proteínas de Swiss-Prot ([swissprot.gz](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)) (2023-07-27 19:36) para el posterior análisis funcional. Se utilizó DIAMOND (Buchfink *et al*., 2021) tanto para la creación de la base de datos, como para la anotación. Se utilizó la siguiente línea de código para la creación de la base de datos de *non-redundant*
 
 ` /home/proyectos/hyzo/compartida/diamond makedb --in nr -d nrdb --taxonnodes nodes.dmp --taxonmap prot.accession2taxid.FULL.gz ` Incluyendo los parámetros de `--taxonnodes` y `--taxonmap` para poder filtrar después la base de datos por artrópodos. Los enlaces a los archivos son: <ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/accession2taxid/prot.accession2taxid.FULL.gz> y el archivo nodes.dmp dentro de (<ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdmp.zip/>)
 
-Se englobó todas lineas de comando anteriores en el script [Diamond.sh](/Transcriptoma/Diamond.sh) que se mandó al CCC
+Se englobaron todas lineas de comando anteriores en el script [Diamond.sh](/Transcriptoma/Diamond.sh) que se mandó al CCC.
 .
 
 Se obtuvo [matchesNR.tsv](/Transcriptoma/matchesNR.tsv/) para la anotacion con nr y [matchesSPU.tsv](/Transcriptoma/matchesSPU.tsv/) para la anotación con Swiss-Prot.
