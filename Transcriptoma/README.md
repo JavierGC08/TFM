@@ -70,7 +70,7 @@ Se obtuvo [matchesNR.tsv](/Transcriptoma/matchesNR.tsv/) para la anotacion con n
 
 De los resultados obtenidos para la anotación con todas las secuencias no redundantes, solo se dejaron las entradas de proteínas que estuvieran caracterizadas, se filtró mediante un script de Python ([api.ipynb](/Transcriptoma/api.ipynb/)) que accedía a la información de cada proteína en la base de datos del NCBI. 
 
-Se compararon las anotaciones frente a otra generada anteriormente por el grupo de investigación, para ello se escribió un script de Python ([Comparation.ipynb](/Transcriptoma/Comparation.ipynb/)) que permitía ver para cada cluster que anotación tenía. Además, también proporcionaba una serie de valores como clusters sin anotar o la diferencia en el e-value para cada una de ellas.
+Se compararon las anotaciones frente a otra generada anteriormente por el grupo de investigación [vsInsectae.csv](/Transcriptoma/vsInsectae.csv/), para ello se escribió un script de Python ([Comparation.ipynb](/Transcriptoma/Comparation.ipynb/)) que permitía ver para cada cluster que anotación tenía. Además, también proporcionaba una serie de valores como clusters sin anotar o la diferencia en el e-value para cada una de ellas.
 
 ### Bibliografía
 
