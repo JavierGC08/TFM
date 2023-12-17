@@ -26,7 +26,7 @@ Sobre el transcriptoma generado por el grupo de investigación [catalog_normal_a
 
 ### Procesamiento
 
-El Blast anterior dió como resultado un archivo en el que están todos los *hits* y *no hits*. Por ello, para recuperar solo los *hits* en la base de datos, se utilizó el script [Processer.ipynb](/Base_de_datos/Processer.ipynb/).
+El Blast anterior dió como resultado un archivo en el que están todos los *hits* y *no hits*. Por ello, para recuperar solo los *hits* en la base de datos, se utilizó el script [Processer.ipynb](/Base_de_datos/Processer.ipynb/). Además, del archivo con los [hits](/Base_de_datos/processed800names.txt/) se obtuvo una lista con todos los nombres de los [genes](/Base_de_datos/processed800genes.txt/).
 
 ### Bibliografía
 
