@@ -12,9 +12,9 @@ Este github es parte del trabajo de fin de máster de **Javier Gutiérrez Corral
 
 Durante el desarrollo del TFM se tuvo acceso a los servidores del Centro de Computación Científica ([CCC](https://www.ccc.uam.es)) de la UAM, que disponen de 2 máquinas (64 cores / 512 Gb de RAM), lo que permitió la realización de este trabajo.
 El acceso al mismo se realizaba mediante `ssh` junto a `jcorral@login1.ccc.uam.es`, cambiando el nombre de usuario por el correspondiente en cada caso.
-El cluster esta organizado en varios directorios, siendo los más importantes:
+El cluster está organizado en varios directorios, siendo los más importantes:
 - *temporal*: Donde se almacenarán temporalmente todos los datos necesarios para realizar cada trabajo, este se debe borrar al acabar.
-- *home*: Es la carpeta *root* de cada usurio, en ella es dondo se guardan los scripts de cada trabajo y los archivos .log que se obtienen al acabar.
+- *home*: Es la carpeta *root* de cada usurio, en ella es donde se guardan los scripts de cada trabajo y los archivos .log que se obtienen al acabar.
 - *proyecto*: Carpeta asociada a un proyecto concreto. En esta es donde se guardan los resultados de cada trabajo al acabar.
 
 Este script es un ejemplo de los que se utilizaron en el trabajo, se siguió la estructura propuesta por el [Github](https://github.com/ARastrojo/UAM-BIO) del responsable técnico del cluster UAM-BIO ([alberto.rastrojo@uam.es]((/mailto:alberto.rastrojo@uam.es/))):
