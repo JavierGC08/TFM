@@ -22,7 +22,7 @@ Adicionalmente, se programó un script ([ScriptBusqueda.ipynb](/Base_de_datos/Sc
 
 ### Blast
 
-Sobre el transcriptoma generado, se realizó un BlastN (Altschul *et al*., 1990) de todas las secuencias obtenidas con GNFish, escribiendo un script en Unix ([merged.sh](/Base_de_datos/merged.sh/)) para juntar todas las secuencias antes generadas en un único archivo [.fasta](/Base_de_datos/merged800.fas/). Primero se creo una base de datos compatible con Blast mediante `makeblastdb` y el fasta recién generado. Con la base de datos y los parámetros básicos del programa se realizó el Blast.
+Sobre el transcriptoma generado por el grupo de investigación [catalog_normal_annotated.fasta](https://dauam-my.sharepoint.com/:u:/g/personal/javier_gutierrezcorral_estudiante_uam_es/EYnemDcVAPJAtACdfhiad5YB_zvmeBhcQCCNiDHHrhErdg?e=esEizo), se realizó un BlastN (Altschul *et al*., 1990) de todas las secuencias obtenidas con GNFish, escribiendo un script en Unix ([merged.sh](/Base_de_datos/merged.sh/)) para juntar todas las secuencias antes generadas en un único archivo [.fasta](/Base_de_datos/merged800.fas/). Primero se creo una base de datos compatible con Blast mediante `makeblastdb` y el fasta recién generado. Con la base de datos y los parámetros básicos del programa se realizó el Blast.
 
 ### Procesamiento
 
