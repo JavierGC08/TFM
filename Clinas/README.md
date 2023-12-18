@@ -12,6 +12,9 @@ Los SNPs se estudiaron en los dos transectos, en cada uno de ellos se analizaba 
 
 Para todos los grupos menos CTTPTT, PTT y CTFPTF se realizaron dos análisis de enriquecimiento funcional utilizando la versión web de DAVID (Huang *et al*.,2008; Sherman *et al*.,2022), uno usando de background todos los clusters anotados y otro usando como background todas las clinas anotadas, significativas o no. Para ello se utilizó el script anterior [GO-SPU](/Clinas/GO-SPU.ipynb/), para obtener la lista de genes a introducir en DAVID, así como el background. CTTPTT, al ser un número reducido de *clusters*, se agrupó y comprobó manualmente desde el archivo csv generado.
 
+### Representación de las clinas
+
+Para representar de forma gráfica ejemplos de los tipos de clinas geográficas, se utilizó el script [RepClinas](/Clinas/RepClinas.ipynb/)
 ### Bibliografía
 
 Huang, D. W., Sherman, B. T., & Lempicki, R. A. (2008). Systematic and integrative analysis of large gene lists using DAVID Bioinformatics resources. Nature Protocols, 4, 1, 44-57. https://doi.org/10.1038/nprot.2008.211 
