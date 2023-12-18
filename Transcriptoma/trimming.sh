@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Javier Gutiérrez Corral
+#Javier Gutiérrez Corral 08/12/2023
 
 directorio=$1
 adaptadores=$2
