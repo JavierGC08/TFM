@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-#Javier Gutiérrez Corral
+#Javier Gutiérrez Corral 08/12/2023
 
 resultdir=/home/proyectos/hyzo/compartida/output
 workdir=/temporal/jcorral/output
