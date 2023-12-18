@@ -44,7 +44,7 @@ Por último, se realizó un alineamiento de las secuencias en bruto frente al en
 
 Al haber comprobado la calidad del ensamblado, se realizó una clasificación del RNA, pudiendo ser *non-coding* (el transcrito no codifica para una proteína, es decir no se traduce, aunque se transcribe) o *coding* (el transcrito codifica para proteína, es decir se traduce). Para ello se utilizó CPC 2.0 (Kang *et al*., 2017) de forma offline, ya que las secuencias superaban los 50 MB, mediante la siguiente línea de código:
 
-` python ./bin/CPC2.py -i rutacompleta/transcripts.fasta -o output `
+` python ./bin/CPC2.py -i rutacompleta/hard_filtered_transcripts.fasta -o output `
 
 El resultado de CPC2 identifica cada uno de los transcritos como *coding* o *non-coding*, por ello se pudo separar cada transcrito utilizando el comando `grep` de la siguiente forma:
 
