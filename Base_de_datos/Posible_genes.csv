@@ -1,4 +1,4 @@
-﻿Nombre del gen;Siglas;Papers;Estudiado;Grupo;Comentario
+Nombre del gen;Siglas;Papers;Estudiado;Grupo;Comentario
 Doublesex;dsx;Wexler et al., 2019;;Insect;Específico de artropodos
 doublesex/mab-3 related ;Dmrt;Hopkins y Kopp, 2021;;;
 Transformer;tra;Wexler et al., 2019;;Insect;
@@ -84,7 +84,7 @@ Bgdsx;;Saccone, 2022;Blatella germanica;Insect(Blattodea);
 Phdsx;;Saccone, 2022;Pediculus humanus;Insect(Phthiraptera);
 Zcdsx;;Saccone, 2022;Zerene cesonia;Insect(Lepidoptera);
 Badsx;;Saccone, 2022;Bycyclus anyna;Insect(Lepidoptera);
-Zndsx;;Saccone, 2022;Zootermis nevadensis;Insect(Isoptera);Me he inventaod el nombre del gen
+Zndsx;;Saccone, 2022;Zootermis nevadensis;Insect(Isoptera);
 Hsjo_dsx;;Saccone, 2022;Hodotermopsis sjostedti;Insect(Isoptera);
 Csex_dsx;;Saccone, 2022;Cryptotermes secundus;Insect(Isoptera);
 Rspe_dsx;;Saccone, 2022;Reticulitermes speratus;Insect(Isoptera);
