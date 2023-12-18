@@ -14,7 +14,7 @@ Para todos los grupos menos CTTPTT, PTT y CTFPTF se realizaron dos análisis de 
 
 ### Representación de las clinas
 
-Para representar de forma gráfica ejemplos de los tipos de clinas geográficas, se utilizó el script [RepClinas](/Clinas/RepClinas.ipynb/)
+Para representar de forma gráfica ejemplos de los tipos de clinas geográficas, se utilizó el script [RepClinas](/Clinas/RepClinas.ipynb/).
 ### Bibliografía
 
 Huang, D. W., Sherman, B. T., & Lempicki, R. A. (2008). Systematic and integrative analysis of large gene lists using DAVID Bioinformatics resources. Nature Protocols, 4, 1, 44-57. https://doi.org/10.1038/nprot.2008.211 
