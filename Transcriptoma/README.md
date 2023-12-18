@@ -82,6 +82,7 @@ Bushmanova, E., Antipov, D., Lapidus, A., Suvorov, V., & Prjibelski, A.D. (2016)
 Kang, Y. J., Yang, D., Kong, L., Hou, M., Meng, Y., Wei, L., & Gao, G. (2017). CPC2: A fast and accurate coding potential calculator based on sequence intrinsic features. Nucleic Acids Research, 45, 1, 12-16. https://doi.org/10.1093/nar/gkx428  
 
 Langmead, B., Salzberg, S. (2012). Fast gapped-read alignment with Bowtie 2. Nature Methods. 9, 357-359. https://doi.org/10.1038/nmeth.1923 
+
 Nolen, Z. J., Yildirim, B., Irisarri, I., Liu, S., Crego, C. G., Amby, D. B., Mayer, F., Gilbert, M., & Pereira, R. J. (2020). Historical isolation facilitates species radiation by sexual selection: Insights from Chorthippus grasshoppers. Molecular Ecology, 29, 4985–5002. https://doi.org/10.1111/mec.15695    
 
 Prjibelski, A. D., Antipov, D., Meleshko, D., Lapidus, A., & Korobeynikov, A. (2020). Using SPAdes de novo assembler. Current protocols in bioinformatics, 70, 1. https://doi.org/10.1002/cpbi.102 
