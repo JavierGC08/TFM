@@ -25,7 +25,8 @@ Se volvió a realizar un análisis de calidad con FASTQC para comprobar que el t
 
 ### Ensamblado
 
-Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPAdes (Prjibelski *et al*., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Se utilizó la versión para RNA-seq de Spades, RNA-SPAdes 3.15.5 (Bushmanova *et al*., 2019) y no se modificaron lo parámetros de k-mer size de SPAdes, ya que el propio programa no recomienda modificarlo. 
+Dado que no existe un transcriptoma de referencia que se pueda utilizar durante el ensamblado, se realizó un ensamblado de novo del transcriptoma utilizando SPAdes (Prjibelski *et al*., 2020). Para ello, se utilizaron los servidores del Centro de Computación Científica (CCC) de la UAM, mandando el script ([scriptspades.sh](/Transcriptoma/scriptspades.sh/)) y los datos al servidor. Este script es un ejemplo con una secuencia *forward* y su secuencia *reverse*, para el ensamblado definitivo se concatenaron usando `cat` todas las secuencias *forward* en un archivo y todas las secuencias *reverse* en otro.
+Se utilizó la versión para RNA-seq de Spades, RNA-SPAdes 3.15.5 (Bushmanova *et al*., 2019) y no se modificaron lo parámetros de k-mer size de SPAdes, ya que el propio programa no recomienda modificarlo. 
 
 #### Calidad del ensamblado
 
