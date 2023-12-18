@@ -38,7 +38,7 @@ Se escogió el ensamblado de hard_filtered_transcripts para los siguientes pasos
 `busco -m transcriptome -i hard_filtered_transcripts.fasta -o buscoutput -l artrhopoda `
 
 
-Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado. Primero se indexo el transcriptoma con `bowtie2-build` y después se mandó  el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead *et al*., 2012) a los servidores del CCC.
+Por último, se realizó un alineamiento de las secuencias en bruto frente al ensamblado realizado. Primero se indexo el transcriptoma con `bowtie2-build` y después se mandó  el script [bowtiescript.sh](/Transcriptoma/bowtiescript.sh/) utilizando Bowtie2 2.5.2 (Langmead *et al*., 2012) a los servidores del CCC. Este script es un ejemplo utilizando un solo individuo, en el alineamiento final se utilizaron las secuencias concatenadas.
 
 #### Clasificación
 
